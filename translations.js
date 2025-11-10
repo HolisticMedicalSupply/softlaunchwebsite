@@ -649,8 +649,165 @@ const translations = {
         "lang.tg": "Тоҷикӣ"
     },
 
+    // Tajik translations
     tg: {
-        // Tajik translations will be added incrementally
+        // Header
+        "header.company": "Holistic Medical Supply",
+        "header.tagline": "Ҳалли пурраи DMEPOS • Аккредитатсияи BOC",
+
+        // Navigation
+        "nav.home": "Саҳифаи асосӣ",
+        "nav.diabetic": "Таҷҳизоти диабет ва беморхона",
+        "nav.patient_care": "Нигоҳубини бемор",
+        "nav.therapeutic": "Таҷҳизоти табобатӣ",
+        "nav.mobility": "Воситаҳои ҳаракат ва аробачаҳои маъюбон",
+        "nav.surgical": "Бандҳои ҷароҳӣ ва фишорӣ",
+        "nav.orthotic": "Ортопедӣ ва протез",
+        "nav.specialized": "Таҷҳизоти махсус",
+
+        // BOC Credentials
+        "boc.accreditation": "Аккредитатсияи BOC",
+        "boc.facility": "Муассиса №S72641",
+        "boc.categories": "Категорияҳои тасдиқшуда",
+        "boc.categories_value": "36",
+        "boc.products": "Кодҳои маҳсулот",
+        "boc.products_value": "535+",
+        "boc.service": "Минтақаи хизматрасонӣ",
+        "boc.service_value": "Ню-Йорк, Бруклин, Стейтен-Айленд, Нассау Каунти",
+
+        // Intro Section
+        "intro.title": "Каталоги касбии маҳсулот барои табибон",
+        "intro.p1": "Ба каталоги пурраи DMEPOS-и ширкати Holistic Medical Supply хуш омадед. Мо таъминкунандаи дорои аккредитатсияи BOC ҳастем, ки ба пешбарандагони хизматрасонии тиббӣ дар минтақаи Ню-Йорк хидмат мерасонем.",
+        "intro.p2": "Захираи васеи мо 36 категорияи тасдиқшудаи BOC-ро бо зиёда аз 535 коди маҳсулоти HCPCS фаро мегирад ва кафолат медиҳад, ки шумо метавонед таҷҳизоти мувофиқро барои ниёзҳои беморонатон пайдо кунед.",
+        "intro.p3": "Каталоги пурраи моро дар поён тамошо кунед, ки аз рӯи категорияи таҷҳизот ташкил шудааст. Ҳар маҳсулот коди HCPCS-и худро барои фармоиш ва маълумоти ҳисоб дорад.",
+
+        // Catalog Categories
+        "catalog.diabetic.title": "🏥 Таҷҳизоти диабет ва беморхона",
+        "catalog.diabetic.desc": "Маҷмӯи пурраи маводи диабет, кату беморхона ва таҷҳизоти зарурии тиббӣ",
+        "catalog.diabetic.items": "Аз ҷумла: Дастгоҳҳои андозагирии қанди хун (Blood Glucose Monitors), навораҳои санҷиш (Test Strips), катҳои беморхона (Hospital Beds), курсиҳои ҳоҷатхона (Commodes), небулайзерҳо (Nebulizers), дастгоҳҳои TENS (TENS Units)",
+        "catalog.diabetic.button": "Дидани каталоги диабет ва беморхона",
+        "catalog.diabetic.count": "88 маҳсулот",
+
+        "catalog.patient_care.title": "Таҷҳизоти нигоҳубини бемор",
+        "catalog.patient_care.desc": "Таҷҳизоти махсус барои нигоҳубини пурраи бемор ва дастгирии ҳаёти ҳаррӯза",
+        "catalog.patient_care.items": "Аз ҷумла: Ҳавасмандкунандаҳои асаб (Neurostimulators), маводи трахеостомия (Tracheostomy Supplies), таҷҳизоти урологӣ (Urological Equipment), ғизои рӯдагӣ (Enteral Nutrition)",
+        "catalog.patient_care.button": "Дидани каталоги нигоҳубини бемор",
+        "catalog.patient_care.count": "45 маҳсулот",
+
+        "catalog.therapeutic.title": "Таҷҳизоти табобатӣ",
+        "catalog.therapeutic.desc": "Дастгоҳҳои табобатии пешрафта ва таҷҳизоти табобатбахшӣ",
+        "catalog.therapeutic.items": "Аз ҷумла: Тушакҳои табобатӣ (Therapeutic Mattresses), таҷҳизоти мавқеъгузорӣ (Positioning Equipment), дастгоҳҳои табобат (Therapy Devices)",
+        "catalog.therapeutic.button": "Дидани каталоги таҷҳизоти табобатӣ",
+        "catalog.therapeutic.count": "83 маҳсулот",
+
+        "catalog.mobility.title": "Воситаҳои ҳаракат ва аробачаҳои маъюбон",
+        "catalog.mobility.desc": "Ҳалҳои пурраи ҳаракат аз воситаҳои содда то аробачаҳои пешрафта",
+        "catalog.mobility.items": "Аз ҷумла: Асоҳо (Canes), таянчҳо (Crutches), роҳравҳо (Walkers), аробачаҳои дастии маъюбон (Manual Wheelchairs), аробачаҳои барқии маъюбон (Power Wheelchairs), скутерҳо (Scooters)",
+        "catalog.mobility.button": "Дидани каталоги воситаҳои ҳаракат",
+        "catalog.mobility.count": "297 маҳсулот",
+
+        "catalog.surgical.title": "Бандҳои ҷароҳӣ ва фишорӣ",
+        "catalog.surgical.desc": "Маводи касбӣ барои нигоҳубини захм ва табобати фишорӣ",
+        "catalog.surgical.items": "Аз ҷумла: Бандҳои ҷароҳӣ (Surgical Dressings), бинтҳо (Bandages), либосҳои фишорӣ ва помпаҳои лимфадема (Lymphedema Compression Garments and Pumps)",
+        "catalog.surgical.button": "Дидани каталоги бандҳои ҷароҳӣ ва фишорӣ",
+        "catalog.surgical.count": "220 маҳсулот",
+
+        "catalog.orthotic.title": "Таҷҳизоти ортопедӣ ва протез",
+        "catalog.orthotic.desc": "Дастгоҳҳои ортопедӣ ва протези фармоишӣ ва омода",
+        "catalog.orthotic.items": "Аз ҷумла: Брейсҳо (Braces), дастгиркунандаҳо (Supports), дастгоҳҳои ортопедӣ (Orthotic Devices), ҷузъҳои протез (Prosthetic Components)",
+        "catalog.orthotic.button": "Дидани каталоги ортопедӣ ва протез",
+        "catalog.orthotic.count": "165 маҳсулот",
+
+        "catalog.specialized.title": "Таҷҳизоти махсус",
+        "catalog.specialized.desc": "Таҷҳизоти тиббии махсус барои ниёзҳои беназири беморон",
+        "catalog.specialized.items": "Аз ҷумла: Дастгоҳҳои мониторинги махсус (Monitoring Devices), таҷҳизоти мутобиқшаванда (Adaptive Equipment), ҳалҳои беназири DME (DME Solutions)",
+        "catalog.specialized.button": "Дидани каталоги таҷҳизоти махсус",
+        "catalog.specialized.count": "60 маҳсулот",
+
+        // Roadmap Section
+        "roadmap.title": "Харитаи роҳи хидматрасонии мо",
+        "roadmap.subtitle": "Эҷоди ҳалли пурраи DMEPOS барои пешбарандагони хизматрасонии тиббӣ",
+
+        "roadmap.phase1.title": "Имрӯз дастрас",
+        "roadmap.phase1.badge": "Хидматҳои ҷорӣ",
+        "roadmap.phase1.item1": "Расонидани 7-рӯза барои фармоишҳои махсус",
+        "roadmap.phase1.item2": "Расонидани 2-рӯза барои молҳои мавҷуд",
+        "roadmap.phase1.item3": "Расонидани ройгон дар минтақаи хизматрасонӣ",
+        "roadmap.phase1.item4": "Қабули Medicare/Medicaid + пардохти нақдӣ",
+        "roadmap.phase1.item5": "Фармоиш тавассути факс, почтаи электронӣ ё телефон",
+        "roadmap.phase1.item6": "Узви VGM GPO бо дастрасӣ ба захираи пурра",
+        "roadmap.phase1.item7": "Таъминкунандаи DME-и дорои литсензия ва аккредитатсия (BOC #S72641)",
+
+        "roadmap.phase2.title": "Ба наздикӣ",
+        "roadmap.phase2.badge": "30 рӯз",
+        "roadmap.phase2.item1": "Сатҳи беҳтаршудаи захираи анбор",
+        "roadmap.phase2.item2": "Ҳамгироии портали Parachute Health барои нусхаи электронӣ",
+        "roadmap.phase2.item3": "Раванди содашудаи фармоиш",
+        "roadmap.phase2.item4": "Пайгирии беҳтаршудаи расонидан",
+
+        "roadmap.phase3.title": "Густариши ояндадор",
+        "roadmap.phase3.badge": "90-60+ рӯз",
+        "roadmap.phase3.item1": "Қабули пардохткунандагони иловагии суғурта",
+        "roadmap.phase3.item2": "Категорияҳои иловагии маҳсулот (CPAP, O2 ва ғайра)",
+        "roadmap.phase3.item3": "Пӯшиши густардаи минтақаи хизматрасонӣ",
+        "roadmap.phase3.item4": "Портали фармоиши онлайн",
+
+        // Footer
+        "footer.contact": "Маълумоти тамос",
+        "footer.address": "Суроға",
+        "footer.address_value": "1170 Port Washington Blvd, Port Washington, NY 11050",
+        "footer.phone": "Телефон",
+        "footer.phone_value": "516-386-3343",
+        "footer.fax": "Факс",
+        "footer.fax_value": "363-999-0019",
+        "footer.orders": "Фармоишҳо",
+        "footer.orders_value": "orders@holisticmedical.supply",
+        "footer.support": "Дастгирӣ",
+        "footer.support_value": "support@holisticmedical.supply",
+
+        // Catalog Page Headers
+        "catalog_page.title_diabetic": "Каталоги таҷҳизоти диабет ва беморхона",
+        "catalog_page.title_patient_care": "Каталоги таҷҳизоти нигоҳубини бемор",
+        "catalog_page.title_therapeutic": "Каталоги таҷҳизоти табобатӣ",
+        "catalog_page.title_mobility": "Каталоги воситаҳои ҳаракат ва аробачаҳои маъюбон",
+        "catalog_page.title_surgical": "Каталоги бандҳои ҷароҳӣ ва фишорӣ",
+        "catalog_page.title_orthotic": "Каталоги ортопедӣ ва протез",
+        "catalog_page.title_specialized": "Каталоги таҷҳизоти махсус",
+
+        // Category Headers on Catalog Pages
+        "category.diabetic": "Маводи диабет (Diabetic Supplies)",
+        "category.hospital_beds": "Катҳои беморхона ва лавозимот (Hospital Beds & Accessories)",
+        "category.commodes": "Курсиҳои ҳоҷатхона ва бехатарии ҳаммом (Commodes & Bathroom Safety)",
+        "category.nebulizers": "Небулайзерҳо ва таҷҳизоти нафасгирӣ (Nebulizers & Respiratory)",
+        "category.tens": "Дастгоҳҳои TENS ва идораи дард (TENS Units & Pain Management)",
+        "category.patient_aids": "Ёрирасонҳои бемор (Patient Aids)",
+        "category.neurostim": "Ҳавасмандкунандаҳои асаб (Neurostimulators)",
+        "category.trach": "Маводи трахеостомия (Tracheostomy Supplies)",
+        "category.urology": "Маводи урологӣ (Urological Supplies)",
+        "category.enteral": "Ғизои рӯдагӣ (Enteral Nutrition)",
+        "category.therapeutic_general": "Таҷҳизоти табобатӣ (Therapeutic Equipment)",
+        "category.canes": "Асоҳо (Canes)",
+        "category.crutches": "Таянчҳо (Crutches)",
+        "category.walkers": "Роҳравҳо ва роллаторҳо (Walkers & Rollators)",
+        "category.manual_wheelchairs": "Аробачаҳои дастии маъюбон (Manual Wheelchairs)",
+        "category.power_wheelchairs": "Аробачаҳои барқии маъюбон (Power Wheelchairs)",
+        "category.scooters": "Скутерҳои ҳаракатӣ (Mobility Scooters)",
+        "category.wheelchair_accessories": "Лавозимоти аробачаҳои маъюбон (Wheelchair Accessories)",
+        "category.surgical_dressings": "Бандҳои ҷароҳӣ (Surgical Dressings)",
+        "category.compression": "Табобати фишорӣ (Compression Therapy)",
+        "category.lymphedema": "Идораи лимфадема (Lymphedema Management)",
+        "category.orthotics": "Дастгоҳҳои ортопедӣ (Orthotic Devices)",
+        "category.prosthetics": "Ҷузъҳои протез (Prosthetic Components)",
+        "category.braces": "Брейсҳо ва дастгиркунандаҳо (Braces & Supports)",
+        "category.specialized_general": "Таҷҳизоти махсус (Specialized Equipment)",
+
+        // Language Selector
+        "lang.select": "Забон",
+        "lang.en": "English",
+        "lang.ru": "Русский",
+        "lang.uz": "O'zbek",
+        "lang.fa": "فارسی",
+        "lang.tg": "Тоҷикӣ"
     }
 };
 
