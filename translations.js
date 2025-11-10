@@ -327,8 +327,165 @@ const translations = {
         "lang.tg": "Тоҷикӣ"
     },
 
+    // Uzbek translations
     uz: {
-        // Uzbek translations will be added incrementally
+        // Header
+        "header.company": "Holistic Medical Supply",
+        "header.tagline": "To'liq DMEPOS yechimlari • BOC akkreditatsiyasi",
+
+        // Navigation
+        "nav.home": "Bosh sahifa",
+        "nav.diabetic": "Diabet va kasalxona uskunalari",
+        "nav.patient_care": "Bemor parvarishi",
+        "nav.therapeutic": "Terapevtik uskunalar",
+        "nav.mobility": "Harakatlanish vositalari va nogironlar aravachalari",
+        "nav.surgical": "Jarrohlik bandog'lari va kompressiya",
+        "nav.orthotic": "Ortopedik va protez",
+        "nav.specialized": "Maxsus uskunalar",
+
+        // BOC Credentials
+        "boc.accreditation": "BOC akkreditatsiyasi",
+        "boc.facility": "Muassasa #S72641",
+        "boc.categories": "Tasdiqlangan toifalar",
+        "boc.categories_value": "36",
+        "boc.products": "Mahsulot kodlari",
+        "boc.products_value": "535+",
+        "boc.service": "Xizmat hududi",
+        "boc.service_value": "Nyu-York, Bruklin, Staten-Aylend, Nassau okrugi",
+
+        // Intro Section
+        "intro.title": "Shifokorlar uchun professional mahsulot katalogi",
+        "intro.p1": "Holistic Medical Supply kompaniyasining keng qamrovli DMEPOS katalogiga xush kelibsiz. Biz Nyu-York poytaxti hududidagi tibbiyot xodimlariga xizmat ko'rsatuvchi BOC akkreditatsiyalangan yetkazib beruvchimiz.",
+        "intro.p2": "Bizning keng assortimentimiz BOC tomonidan tasdiqlangan 36 toifani va 535 dan ortiq HCPCS mahsulot kodlarini qamrab oladi, bu sizga bemorlaringiz ehtiyojlari uchun kerakli uskunani topishni ta'minlaydi.",
+        "intro.p3": "Quyida uskunalar toifasi bo'yicha tashkil etilgan to'liq katalogimizni ko'rib chiqing. Har bir mahsulot buyurtma berish va hisob-kitob uchun o'zining HCPCS kodini o'z ichiga oladi.",
+
+        // Catalog Categories
+        "catalog.diabetic.title": "🏥 Diabet va kasalxona uskunalari",
+        "catalog.diabetic.desc": "Diabet buyumlari, kasalxona to'shaklari va zarur tibbiy uskunalarning to'liq assortimenti",
+        "catalog.diabetic.items": "Kiradi: Qon glyukoza monitorlari (Blood Glucose Monitors), test-poloskalari (Test Strips), kasalxona to'shaklari (Hospital Beds), hojatxona stullari (Commodes), nebulayzerlari (Nebulizers), TENS apparatlari (TENS Units)",
+        "catalog.diabetic.button": "Diabet va kasalxona katalogini ko'rish",
+        "catalog.diabetic.count": "88 mahsulot",
+
+        "catalog.patient_care.title": "Bemor parvarishi uskunalari",
+        "catalog.patient_care.desc": "Keng qamrovli bemor parvarishi va kundalik hayotni qo'llab-quvvatlash uchun maxsus uskunalar",
+        "catalog.patient_care.items": "Kiradi: Neyrostimulyatorlar (Neurostimulators), traxeostomiya buyumlari (Tracheostomy Supplies), urologik uskunalar (Urological Equipment), enteral ovqatlanish (Enteral Nutrition)",
+        "catalog.patient_care.button": "Bemor parvarishi katalogini ko'rish",
+        "catalog.patient_care.count": "45 mahsulot",
+
+        "catalog.therapeutic.title": "Terapevtik uskunalar",
+        "catalog.therapeutic.desc": "Zamonaviy terapevtik qurilmalar va reabilitatsiya uskunalari",
+        "catalog.therapeutic.items": "Kiradi: Terapevtik matraslar (Therapeutic Mattresses), pozitsiyalash uskunalari (Positioning Equipment), terapiya qurilmalari (Therapy Devices)",
+        "catalog.therapeutic.button": "Terapevtik uskunalar katalogini ko'rish",
+        "catalog.therapeutic.count": "83 mahsulot",
+
+        "catalog.mobility.title": "Harakatlanish vositalari va nogironlar aravachalari",
+        "catalog.mobility.desc": "Oddiy vositalardan ilg'or nogironlar aravachalarigacha bo'lgan keng qamrovli harakatlanish yechimlari",
+        "catalog.mobility.items": "Kiradi: Tayoqlar (Canes), tayanch tayoqlar (Crutches), piyodalar (Walkers), qo'l bilan boshqariladigan nogironlar aravachalari (Manual Wheelchairs), elektr nogironlar aravachalari (Power Wheelchairs), skuterlar (Scooters)",
+        "catalog.mobility.button": "Harakatlanish vositalari katalogini ko'rish",
+        "catalog.mobility.count": "297 mahsulot",
+
+        "catalog.surgical.title": "Jarrohlik bandog'lari va kompressiya",
+        "catalog.surgical.desc": "Professional darajadagi yara parvarishi va kompressiya terapiyasi buyumlari",
+        "catalog.surgical.items": "Kiradi: Jarrohlik bandog'lari (Surgical Dressings), bintlar (Bandages), limfedemaga qarshi kompressiya kiyimlari va pompalar (Lymphedema Compression Garments and Pumps)",
+        "catalog.surgical.button": "Jarrohlik bandog'lari va kompressiya katalogini ko'rish",
+        "catalog.surgical.count": "220 mahsulot",
+
+        "catalog.orthotic.title": "Ortopedik va protez uskunalari",
+        "catalog.orthotic.desc": "Maxsus va tayyor ortopedik va protez qurilmalari",
+        "catalog.orthotic.items": "Kiradi: Breyslar (Braces), qo'llab-quvvatlagichlar (Supports), ortopedik qurilmalar (Orthotic Devices), protez komponentlari (Prosthetic Components)",
+        "catalog.orthotic.button": "Ortopedik va protez katalogini ko'rish",
+        "catalog.orthotic.count": "165 mahsulot",
+
+        "catalog.specialized.title": "Maxsus uskunalar",
+        "catalog.specialized.desc": "Bemorlarning noyob ehtiyojlari uchun maxsus tibbiy uskunalar",
+        "catalog.specialized.items": "Kiradi: Maxsus monitoring qurilmalari (Monitoring Devices), moslashuvchan uskunalar (Adaptive Equipment), noyob DME yechimlari (DME Solutions)",
+        "catalog.specialized.button": "Maxsus uskunalar katalogini ko'rish",
+        "catalog.specialized.count": "60 mahsulot",
+
+        // Roadmap Section
+        "roadmap.title": "Bizning xizmatlar yo'l xaritasi",
+        "roadmap.subtitle": "Tibbiyot xodimlari uchun keng qamrovli DMEPOS yechimini yaratish",
+
+        "roadmap.phase1.title": "Bugun mavjud",
+        "roadmap.phase1.badge": "Joriy xizmatlar",
+        "roadmap.phase1.item1": "Maxsus buyurtmalar uchun 7 kunlik yetkazib berish",
+        "roadmap.phase1.item2": "Ombordagi tovarlar uchun 2 kunlik yetkazib berish",
+        "roadmap.phase1.item3": "Xizmat hududida bepul yetkazib berish",
+        "roadmap.phase1.item4": "Medicare/Medicaid + naqd to'lovlar qabul qilinadi",
+        "roadmap.phase1.item5": "Faks, elektron pochta yoki telefon orqali buyurtma",
+        "roadmap.phase1.item6": "Keng qamrovli inventar kirishi bilan VGM GPO a'zosi",
+        "roadmap.phase1.item7": "Litsenziyalangan va akkreditatsiyalangan DME yetkazib beruvchi (BOC #S72641)",
+
+        "roadmap.phase2.title": "Tez orada",
+        "roadmap.phase2.badge": "30 kun",
+        "roadmap.phase2.item1": "Yaxshilangan ombor zaxiralari darajasi",
+        "roadmap.phase2.item2": "Elektron retseptlar uchun Parachute Health Portal integratsiyasi",
+        "roadmap.phase2.item3": "Soddalashtirilgan buyurtma jarayoni",
+        "roadmap.phase2.item4": "Yaxshilangan yetkazib berish kuzatuvi",
+
+        "roadmap.phase3.title": "Kelajak kengayishi",
+        "roadmap.phase3.badge": "60-90+ kun",
+        "roadmap.phase3.item1": "Qo'shimcha sug'urta to'lovchilarini qabul qilish",
+        "roadmap.phase3.item2": "Qo'shimcha mahsulot toifalari (CPAP, O2 va boshqalar)",
+        "roadmap.phase3.item3": "Kengaytirilgan xizmat hududi qamrovi",
+        "roadmap.phase3.item4": "Onlayn buyurtma portali",
+
+        // Footer
+        "footer.contact": "Aloqa ma'lumotlari",
+        "footer.address": "Manzil",
+        "footer.address_value": "1170 Port Washington Blvd, Port Washington, NY 11050",
+        "footer.phone": "Telefon",
+        "footer.phone_value": "516-386-3343",
+        "footer.fax": "Faks",
+        "footer.fax_value": "363-999-0019",
+        "footer.orders": "Buyurtmalar",
+        "footer.orders_value": "orders@holisticmedical.supply",
+        "footer.support": "Qo'llab-quvvatlash",
+        "footer.support_value": "support@holisticmedical.supply",
+
+        // Catalog Page Headers
+        "catalog_page.title_diabetic": "Diabet va kasalxona uskunalari katalogi",
+        "catalog_page.title_patient_care": "Bemor parvarishi uskunalari katalogi",
+        "catalog_page.title_therapeutic": "Terapevtik uskunalar katalogi",
+        "catalog_page.title_mobility": "Harakatlanish vositalari va nogironlar aravachalari katalogi",
+        "catalog_page.title_surgical": "Jarrohlik bandog'lari va kompressiya katalogi",
+        "catalog_page.title_orthotic": "Ortopedik va protez katalogi",
+        "catalog_page.title_specialized": "Maxsus uskunalar katalogi",
+
+        // Category Headers on Catalog Pages
+        "category.diabetic": "Diabet buyumlari (Diabetic Supplies)",
+        "category.hospital_beds": "Kasalxona to'shaklari va aksessuarlar (Hospital Beds & Accessories)",
+        "category.commodes": "Hojatxona stullari va hammom xavfsizligi (Commodes & Bathroom Safety)",
+        "category.nebulizers": "Nebulayzerlari va nafas olish uskunalari (Nebulizers & Respiratory)",
+        "category.tens": "TENS apparatlari va og'riqni boshqarish (TENS Units & Pain Management)",
+        "category.patient_aids": "Bemor yordamchilari (Patient Aids)",
+        "category.neurostim": "Neyrostimulyatorlar (Neurostimulators)",
+        "category.trach": "Traxeostomiya buyumlari (Tracheostomy Supplies)",
+        "category.urology": "Urologik buyumlar (Urological Supplies)",
+        "category.enteral": "Enteral ovqatlanish (Enteral Nutrition)",
+        "category.therapeutic_general": "Terapevtik uskunalar (Therapeutic Equipment)",
+        "category.canes": "Tayoqlar (Canes)",
+        "category.crutches": "Tayanch tayoqlar (Crutches)",
+        "category.walkers": "Piyodalar va rollatorlar (Walkers & Rollators)",
+        "category.manual_wheelchairs": "Qo'l bilan boshqariladigan nogironlar aravachalari (Manual Wheelchairs)",
+        "category.power_wheelchairs": "Elektr nogironlar aravachalari (Power Wheelchairs)",
+        "category.scooters": "Harakatlanish skuterlari (Mobility Scooters)",
+        "category.wheelchair_accessories": "Nogironlar aravachalari aksessuarlari (Wheelchair Accessories)",
+        "category.surgical_dressings": "Jarrohlik bandog'lari (Surgical Dressings)",
+        "category.compression": "Kompressiya terapiyasi (Compression Therapy)",
+        "category.lymphedema": "Limfedemani boshqarish (Lymphedema Management)",
+        "category.orthotics": "Ortopedik qurilmalar (Orthotic Devices)",
+        "category.prosthetics": "Protez komponentlari (Prosthetic Components)",
+        "category.braces": "Breyslar va qo'llab-quvvatlagichlar (Braces & Supports)",
+        "category.specialized_general": "Maxsus uskunalar (Specialized Equipment)",
+
+        // Language Selector
+        "lang.select": "Til",
+        "lang.en": "English",
+        "lang.ru": "Русский",
+        "lang.uz": "O'zbek",
+        "lang.fa": "فارسی",
+        "lang.tg": "Тоҷикӣ"
     },
 
     fa: {
