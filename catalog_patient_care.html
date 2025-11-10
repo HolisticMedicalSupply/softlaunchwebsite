@@ -361,6 +361,147 @@
         }
 
         /* ============== PRINT STYLES ============== */
+        /* ============== RESPONSIVE DESIGN ============== */
+
+        /* Tablet styles (768px and below) */
+        @media screen and (max-width: 768px) {
+            .header {
+                padding: 20px 15px;
+            }
+
+            .company-name {
+                font-size: 28px;
+            }
+
+            .tagline {
+                font-size: 12px;
+            }
+
+            .nav-bar {
+                padding: 12px;
+            }
+
+            .nav-bar a {
+                padding: 8px 10px;
+                margin: 3px 4px;
+                font-size: 9pt;
+            }
+
+            .boc-bar {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 15px;
+                gap: 10px;
+            }
+
+            .category-header {
+                padding: 15px 20px;
+                font-size: 18px;
+            }
+
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .product-card {
+                padding: 12px;
+            }
+
+            .product-name {
+                font-size: 9pt;
+            }
+
+            .hcpcs-code {
+                font-size: 8pt;
+                padding: 4px 8px;
+            }
+
+            .footer {
+                padding: 15px;
+                font-size: 9pt;
+            }
+        }
+
+        /* Mobile styles (480px and below) */
+        @media screen and (max-width: 480px) {
+            body {
+                font-size: 9pt;
+            }
+
+            .header {
+                padding: 15px 10px;
+            }
+
+            .logo-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .company-name {
+                font-size: 22px;
+            }
+
+            .tagline {
+                font-size: 11px;
+            }
+
+            .nav-bar {
+                padding: 10px;
+            }
+
+            .nav-bar a {
+                display: block;
+                margin: 4px 0;
+                padding: 10px;
+                font-size: 10pt;
+                text-align: left;
+            }
+
+            .boc-bar {
+                grid-template-columns: 1fr;
+                padding: 12px;
+                gap: 8px;
+            }
+
+            .boc-label {
+                font-size: 8pt;
+            }
+
+            .boc-value {
+                font-size: 12px;
+            }
+
+            .category-header {
+                padding: 12px 15px;
+                font-size: 16px;
+            }
+
+            .product-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .product-card {
+                padding: 10px;
+            }
+
+            .product-name {
+                font-size: 8.5pt;
+                line-height: 1.3;
+            }
+
+            .hcpcs-code {
+                font-size: 7.5pt;
+                padding: 3px 6px;
+            }
+
+            .footer {
+                padding: 12px;
+                font-size: 8.5pt;
+                line-height: 1.6;
+            }
+        }
+
         @media print {
             body {
                 background: white;
