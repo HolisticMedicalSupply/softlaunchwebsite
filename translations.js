@@ -166,9 +166,165 @@ const translations = {
         "lang.tg": "Тоҷикӣ"
     },
 
-    // Placeholder structures for other languages (to be filled incrementally)
+    // Russian translations
     ru: {
-        // Russian translations will be added incrementally
+        // Header
+        "header.company": "Holistic Medical Supply",
+        "header.tagline": "Полные решения DMEPOS • Аккредитация BOC",
+
+        // Navigation
+        "nav.home": "Главная",
+        "nav.diabetic": "Диабетическое и больничное оборудование",
+        "nav.patient_care": "Уход за пациентами",
+        "nav.therapeutic": "Терапевтическое оборудование",
+        "nav.mobility": "Средства передвижения и инвалидные коляски",
+        "nav.surgical": "Хирургические повязки и компрессия",
+        "nav.orthotic": "Ортопедическое и протезное",
+        "nav.specialized": "Специализированное оборудование",
+
+        // BOC Credentials
+        "boc.accreditation": "Аккредитация BOC",
+        "boc.facility": "Учреждение #S72641",
+        "boc.categories": "Одобренных категорий",
+        "boc.categories_value": "36",
+        "boc.products": "Коды продуктов",
+        "boc.products_value": "535+",
+        "boc.service": "Зона обслуживания",
+        "boc.service_value": "Нью-Йорк, Бруклин, Статен-Айленд, округ Нассау",
+
+        // Intro Section
+        "intro.title": "Профессиональный каталог продукции для врачей",
+        "intro.p1": "Добро пожаловать в комплексный каталог DMEPOS компании Holistic Medical Supply. Мы являемся аккредитованным BOC поставщиком, обслуживающим медицинских работников в столичном регионе Нью-Йорка.",
+        "intro.p2": "Наш обширный ассортимент охватывает 36 категорий, утвержденных BOC, с более чем 535 кодами продуктов HCPCS, что гарантирует, что вы найдете подходящее оборудование для нужд ваших пациентов.",
+        "intro.p3": "Просмотрите наш полный каталог ниже, организованный по категориям оборудования. Каждый продукт включает свой код HCPCS для удобства заказа и выставления счетов.",
+
+        // Catalog Categories
+        "catalog.diabetic.title": "🏥 Диабетическое и больничное оборудование",
+        "catalog.diabetic.desc": "Полный ассортимент диабетических принадлежностей, больничных кроватей и необходимого медицинского оборудования",
+        "catalog.diabetic.items": "Включает: Глюкометры (Blood Glucose Monitors), тест-полоски (Test Strips), больничные кровати (Hospital Beds), туалетные стулья (Commodes), небулайзеры (Nebulizers), аппараты TENS (TENS Units)",
+        "catalog.diabetic.button": "Смотреть каталог диабетического и больничного оборудования",
+        "catalog.diabetic.count": "88 продуктов",
+
+        "catalog.patient_care.title": "Оборудование для ухода за пациентами",
+        "catalog.patient_care.desc": "Специализированное оборудование для комплексного ухода за пациентами и поддержки повседневной жизни",
+        "catalog.patient_care.items": "Включает: Нейростимуляторы (Neurostimulators), принадлежности для трахеостомии (Tracheostomy Supplies), урологическое оборудование (Urological Equipment), энтеральное питание (Enteral Nutrition)",
+        "catalog.patient_care.button": "Смотреть каталог оборудования для ухода за пациентами",
+        "catalog.patient_care.count": "45 продуктов",
+
+        "catalog.therapeutic.title": "Терапевтическое оборудование",
+        "catalog.therapeutic.desc": "Современные терапевтические устройства и реабилитационное оборудование",
+        "catalog.therapeutic.items": "Включает: Терапевтические матрасы (Therapeutic Mattresses), оборудование для позиционирования (Positioning Equipment), терапевтические устройства (Therapy Devices)",
+        "catalog.therapeutic.button": "Смотреть каталог терапевтического оборудования",
+        "catalog.therapeutic.count": "83 продукта",
+
+        "catalog.mobility.title": "Средства передвижения и инвалидные коляски",
+        "catalog.mobility.desc": "Комплексные решения для передвижения от базовых средств до современных инвалидных колясок",
+        "catalog.mobility.items": "Включает: Трости (Canes), костыли (Crutches), ходунки (Walkers), механические инвалидные коляски (Manual Wheelchairs), электрические инвалидные коляски (Power Wheelchairs), скутеры (Scooters)",
+        "catalog.mobility.button": "Смотреть каталог средств передвижения",
+        "catalog.mobility.count": "297 продуктов",
+
+        "catalog.surgical.title": "Хирургические повязки и компрессия",
+        "catalog.surgical.desc": "Профессиональные средства для ухода за ранами и компрессионной терапии",
+        "catalog.surgical.items": "Включает: Хирургические повязки (Surgical Dressings), бинты (Bandages), компрессионная одежда и насосы для лимфедемы (Lymphedema Compression Garments and Pumps)",
+        "catalog.surgical.button": "Смотреть каталог хирургических повязок и компрессии",
+        "catalog.surgical.count": "220 продуктов",
+
+        "catalog.orthotic.title": "Ортопедическое и протезное оборудование",
+        "catalog.orthotic.desc": "Индивидуальные и готовые ортопедические и протезные устройства",
+        "catalog.orthotic.items": "Включает: Брейсы (Braces), поддержки (Supports), ортопедические устройства (Orthotic Devices), протезные компоненты (Prosthetic Components)",
+        "catalog.orthotic.button": "Смотреть каталог ортопедического и протезного оборудования",
+        "catalog.orthotic.count": "165 продуктов",
+
+        "catalog.specialized.title": "Специализированное оборудование",
+        "catalog.specialized.desc": "Специализированное медицинское оборудование для уникальных потребностей пациентов",
+        "catalog.specialized.items": "Включает: Специализированные мониторинговые устройства (Monitoring Devices), адаптивное оборудование (Adaptive Equipment), уникальные решения DME (DME Solutions)",
+        "catalog.specialized.button": "Смотреть каталог специализированного оборудования",
+        "catalog.specialized.count": "60 продуктов",
+
+        // Roadmap Section
+        "roadmap.title": "Наша дорожная карта услуг",
+        "roadmap.subtitle": "Создание комплексного решения DMEPOS для медицинских работников",
+
+        "roadmap.phase1.title": "Доступно сегодня",
+        "roadmap.phase1.badge": "Текущие услуги",
+        "roadmap.phase1.item1": "7-дневная доставка специальных заказов",
+        "roadmap.phase1.item2": "2-дневная доставка товаров на складе",
+        "roadmap.phase1.item3": "Бесплатная доставка в зоне обслуживания",
+        "roadmap.phase1.item4": "Принимаем Medicare/Medicaid + наличные",
+        "roadmap.phase1.item5": "Заказ по факсу, электронной почте или телефону",
+        "roadmap.phase1.item6": "Член VGM GPO с доступом к комплексному ассортименту",
+        "roadmap.phase1.item7": "Лицензированный и аккредитованный поставщик DME (BOC #S72641)",
+
+        "roadmap.phase2.title": "Скоро",
+        "roadmap.phase2.badge": "30 дней",
+        "roadmap.phase2.item1": "Улучшенные уровни складских запасов",
+        "roadmap.phase2.item2": "Интеграция с порталом Parachute Health для электронных рецептов",
+        "roadmap.phase2.item3": "Упрощенный процесс заказа",
+        "roadmap.phase2.item4": "Улучшенное отслеживание доставки",
+
+        "roadmap.phase3.title": "Будущее расширение",
+        "roadmap.phase3.badge": "60-90+ дней",
+        "roadmap.phase3.item1": "Принятие дополнительных страховых плательщиков",
+        "roadmap.phase3.item2": "Дополнительные категории продуктов (CPAP, O2 и т.д.)",
+        "roadmap.phase3.item3": "Расширенное покрытие зоны обслуживания",
+        "roadmap.phase3.item4": "Онлайн-портал для заказов",
+
+        // Footer
+        "footer.contact": "Контактная информация",
+        "footer.address": "Адрес",
+        "footer.address_value": "1170 Port Washington Blvd, Port Washington, NY 11050",
+        "footer.phone": "Телефон",
+        "footer.phone_value": "516-386-3343",
+        "footer.fax": "Факс",
+        "footer.fax_value": "363-999-0019",
+        "footer.orders": "Заказы",
+        "footer.orders_value": "orders@holisticmedical.supply",
+        "footer.support": "Поддержка",
+        "footer.support_value": "support@holisticmedical.supply",
+
+        // Catalog Page Headers
+        "catalog_page.title_diabetic": "Каталог диабетического и больничного оборудования",
+        "catalog_page.title_patient_care": "Каталог оборудования для ухода за пациентами",
+        "catalog_page.title_therapeutic": "Каталог терапевтического оборудования",
+        "catalog_page.title_mobility": "Каталог средств передвижения и инвалидных колясок",
+        "catalog_page.title_surgical": "Каталог хирургических повязок и компрессии",
+        "catalog_page.title_orthotic": "Каталог ортопедического и протезного оборудования",
+        "catalog_page.title_specialized": "Каталог специализированного оборудования",
+
+        // Category Headers on Catalog Pages
+        "category.diabetic": "Диабетические принадлежности (Diabetic Supplies)",
+        "category.hospital_beds": "Больничные кровати и аксессуары (Hospital Beds & Accessories)",
+        "category.commodes": "Туалетные стулья и безопасность в ванной (Commodes & Bathroom Safety)",
+        "category.nebulizers": "Небулайзеры и респираторное оборудование (Nebulizers & Respiratory)",
+        "category.tens": "Аппараты TENS и обезболивание (TENS Units & Pain Management)",
+        "category.patient_aids": "Средства для пациентов (Patient Aids)",
+        "category.neurostim": "Нейростимуляторы (Neurostimulators)",
+        "category.trach": "Принадлежности для трахеостомии (Tracheostomy Supplies)",
+        "category.urology": "Урологические принадлежности (Urological Supplies)",
+        "category.enteral": "Энтеральное питание (Enteral Nutrition)",
+        "category.therapeutic_general": "Терапевтическое оборудование (Therapeutic Equipment)",
+        "category.canes": "Трости (Canes)",
+        "category.crutches": "Костыли (Crutches)",
+        "category.walkers": "Ходунки и роллаторы (Walkers & Rollators)",
+        "category.manual_wheelchairs": "Механические инвалидные коляски (Manual Wheelchairs)",
+        "category.power_wheelchairs": "Электрические инвалидные коляски (Power Wheelchairs)",
+        "category.scooters": "Мобильные скутеры (Mobility Scooters)",
+        "category.wheelchair_accessories": "Аксессуары для инвалидных колясок (Wheelchair Accessories)",
+        "category.surgical_dressings": "Хирургические повязки (Surgical Dressings)",
+        "category.compression": "Компрессионная терапия (Compression Therapy)",
+        "category.lymphedema": "Управление лимфедемой (Lymphedema Management)",
+        "category.orthotics": "Ортопедические устройства (Orthotic Devices)",
+        "category.prosthetics": "Протезные компоненты (Prosthetic Components)",
+        "category.braces": "Брейсы и поддержки (Braces & Supports)",
+        "category.specialized_general": "Специализированное оборудование (Specialized Equipment)",
+
+        // Language Selector
+        "lang.select": "Язык",
+        "lang.en": "English",
+        "lang.ru": "Русский",
+        "lang.uz": "O'zbek",
+        "lang.fa": "فارسی",
+        "lang.tg": "Тоҷикӣ"
     },
 
     uz: {
