@@ -488,8 +488,165 @@ const translations = {
         "lang.tg": "Тоҷикӣ"
     },
 
+    // Farsi translations (RTL language)
     fa: {
-        // Farsi translations will be added incrementally
+        // Header
+        "header.company": "Holistic Medical Supply",
+        "header.tagline": "راه‌حل‌های کامل DMEPOS • دارای مجوز BOC",
+
+        // Navigation
+        "nav.home": "صفحه اصلی",
+        "nav.diabetic": "تجهیزات دیابت و بیمارستانی",
+        "nav.patient_care": "مراقبت از بیمار",
+        "nav.therapeutic": "تجهیزات درمانی",
+        "nav.mobility": "وسایل حرکتی و ویلچر",
+        "nav.surgical": "پانسمان‌های جراحی و فشاری",
+        "nav.orthotic": "ارتوپدی و پروتز",
+        "nav.specialized": "تجهیزات تخصصی",
+
+        // BOC Credentials
+        "boc.accreditation": "مجوز BOC",
+        "boc.facility": "مرکز شماره S72641#",
+        "boc.categories": "دسته‌های تایید شده",
+        "boc.categories_value": "36",
+        "boc.products": "کدهای محصول",
+        "boc.products_value": "535+",
+        "boc.service": "منطقه خدمات",
+        "boc.service_value": "نیویورک، بروکلین، استاتن آیلند، ناسائو کانتی",
+
+        // Intro Section
+        "intro.title": "کاتالوگ حرفه‌ای محصولات برای پزشکان",
+        "intro.p1": "به کاتالوگ جامع DMEPOS شرکت Holistic Medical Supply خوش آمدید. ما یک تامین‌کننده دارای مجوز BOC هستیم که به ارائه‌دهندگان مراقبت‌های بهداشتی در منطقه متروپولیتن نیویورک خدمات می‌دهیم.",
+        "intro.p2": "موجودی گسترده ما 36 دسته تایید شده BOC را با بیش از 535 کد محصول HCPCS پوشش می‌دهد و تضمین می‌کند که می‌توانید تجهیزات مناسب برای نیازهای بیماران خود را پیدا کنید.",
+        "intro.p3": "کاتالوگ کامل ما را در زیر مرور کنید که بر اساس دسته‌بندی تجهیزات سازماندهی شده است. هر محصول شامل کد HCPCS خود برای سفارش آسان و مرجع صورت‌حساب است.",
+
+        // Catalog Categories
+        "catalog.diabetic.title": "🏥 تجهیزات دیابت و بیمارستانی",
+        "catalog.diabetic.desc": "طیف کاملی از لوازم دیابت، تخت‌های بیمارستان و تجهیزات پزشکی ضروری",
+        "catalog.diabetic.items": "شامل: دستگاه‌های اندازه‌گیری قند خون (Blood Glucose Monitors)، نوارهای آزمایش (Test Strips)، تخت‌های بیمارستان (Hospital Beds)، صندلی توالت (Commodes)، نبولایزرها (Nebulizers)، دستگاه‌های TENS (TENS Units)",
+        "catalog.diabetic.button": "مشاهده کاتالوگ دیابت و بیمارستانی",
+        "catalog.diabetic.count": "88 محصول",
+
+        "catalog.patient_care.title": "تجهیزات مراقبت از بیمار",
+        "catalog.patient_care.desc": "تجهیزات تخصصی برای مراقبت جامع از بیمار و پشتیبانی زندگی روزمره",
+        "catalog.patient_care.items": "شامل: تحریک‌کننده‌های عصبی (Neurostimulators)، لوازم تراکئوستومی (Tracheostomy Supplies)، تجهیزات اورولوژی (Urological Equipment)، تغذیه روده‌ای (Enteral Nutrition)",
+        "catalog.patient_care.button": "مشاهده کاتالوگ مراقبت از بیمار",
+        "catalog.patient_care.count": "45 محصول",
+
+        "catalog.therapeutic.title": "تجهیزات درمانی",
+        "catalog.therapeutic.desc": "دستگاه‌های درمانی پیشرفته و تجهیزات توانبخشی",
+        "catalog.therapeutic.items": "شامل: تشک‌های درمانی (Therapeutic Mattresses)، تجهیزات وضعیت‌گیری (Positioning Equipment)، دستگاه‌های درمانی (Therapy Devices)",
+        "catalog.therapeutic.button": "مشاهده کاتالوگ تجهیزات درمانی",
+        "catalog.therapeutic.count": "83 محصول",
+
+        "catalog.mobility.title": "وسایل حرکتی و ویلچرها",
+        "catalog.mobility.desc": "راه‌حل‌های جامع تحرک از وسایل ابتدایی تا ویلچرهای پیشرفته",
+        "catalog.mobility.items": "شامل: عصاها (Canes)، واکرها (Crutches)، راه‌روها (Walkers)، ویلچرهای دستی (Manual Wheelchairs)، ویلچرهای برقی (Power Wheelchairs)، اسکوترها (Scooters)",
+        "catalog.mobility.button": "مشاهده کاتالوگ وسایل حرکتی",
+        "catalog.mobility.count": "297 محصول",
+
+        "catalog.surgical.title": "پانسمان‌های جراحی و فشاری",
+        "catalog.surgical.desc": "لوازم حرفه‌ای مراقبت از زخم و درمان فشاری",
+        "catalog.surgical.items": "شامل: پانسمان‌های جراحی (Surgical Dressings)، باندها (Bandages)، لباس‌های فشاری و پمپ‌های لنف‌ادم (Lymphedema Compression Garments and Pumps)",
+        "catalog.surgical.button": "مشاهده کاتالوگ پانسمان‌های جراحی و فشاری",
+        "catalog.surgical.count": "220 محصول",
+
+        "catalog.orthotic.title": "تجهیزات ارتوپدی و پروتز",
+        "catalog.orthotic.desc": "دستگاه‌های ارتوپدی و پروتز سفارشی و آماده",
+        "catalog.orthotic.items": "شامل: بریس‌ها (Braces)، نگهدارنده‌ها (Supports)، دستگاه‌های ارتوپدی (Orthotic Devices)، اجزای پروتز (Prosthetic Components)",
+        "catalog.orthotic.button": "مشاهده کاتالوگ ارتوپدی و پروتز",
+        "catalog.orthotic.count": "165 محصول",
+
+        "catalog.specialized.title": "تجهیزات تخصصی",
+        "catalog.specialized.desc": "تجهیزات پزشکی تخصصی برای نیازهای منحصر به فرد بیماران",
+        "catalog.specialized.items": "شامل: دستگاه‌های مانیتورینگ تخصصی (Monitoring Devices)، تجهیزات سازگار (Adaptive Equipment)، راه‌حل‌های منحصر به فرد DME (DME Solutions)",
+        "catalog.specialized.button": "مشاهده کاتالوگ تجهیزات تخصصی",
+        "catalog.specialized.count": "60 محصول",
+
+        // Roadmap Section
+        "roadmap.title": "نقشه راه خدمات ما",
+        "roadmap.subtitle": "ایجاد راه‌حل جامع DMEPOS برای ارائه‌دهندگان مراقبت‌های بهداشتی",
+
+        "roadmap.phase1.title": "امروز در دسترس",
+        "roadmap.phase1.badge": "خدمات فعلی",
+        "roadmap.phase1.item1": "تحویل 7 روزه برای سفارشات ویژه",
+        "roadmap.phase1.item2": "تحویل 2 روزه برای کالاهای موجود در انبار",
+        "roadmap.phase1.item3": "تحویل رایگان در منطقه خدمات",
+        "roadmap.phase1.item4": "پذیرش Medicare/Medicaid + پرداخت نقدی",
+        "roadmap.phase1.item5": "سفارش از طریق فکس، ایمیل یا تلفن",
+        "roadmap.phase1.item6": "عضو VGM GPO با دسترسی به موجودی جامع",
+        "roadmap.phase1.item7": "تامین‌کننده DME دارای مجوز و تاییدیه (BOC #S72641)",
+
+        "roadmap.phase2.title": "به زودی",
+        "roadmap.phase2.badge": "30 روز",
+        "roadmap.phase2.item1": "سطوح بهبود یافته موجودی انبار",
+        "roadmap.phase2.item2": "یکپارچه‌سازی پورتال Parachute Health برای نسخه الکترونیک",
+        "roadmap.phase2.item3": "فرآیند ساده‌شده سفارش",
+        "roadmap.phase2.item4": "ردیابی بهبود یافته تحویل",
+
+        "roadmap.phase3.title": "گسترش آینده",
+        "roadmap.phase3.badge": "90-60+ روز",
+        "roadmap.phase3.item1": "پذیرش پرداخت‌کنندگان بیمه اضافی",
+        "roadmap.phase3.item2": "دسته‌های محصول اضافی (CPAP، O2 و غیره)",
+        "roadmap.phase3.item3": "پوشش گسترده منطقه خدمات",
+        "roadmap.phase3.item4": "پورتال سفارش آنلاین",
+
+        // Footer
+        "footer.contact": "اطلاعات تماس",
+        "footer.address": "آدرس",
+        "footer.address_value": "1170 Port Washington Blvd, Port Washington, NY 11050",
+        "footer.phone": "تلفن",
+        "footer.phone_value": "516-386-3343",
+        "footer.fax": "فکس",
+        "footer.fax_value": "363-999-0019",
+        "footer.orders": "سفارشات",
+        "footer.orders_value": "orders@holisticmedical.supply",
+        "footer.support": "پشتیبانی",
+        "footer.support_value": "support@holisticmedical.supply",
+
+        // Catalog Page Headers
+        "catalog_page.title_diabetic": "کاتالوگ تجهیزات دیابت و بیمارستانی",
+        "catalog_page.title_patient_care": "کاتالوگ تجهیزات مراقبت از بیمار",
+        "catalog_page.title_therapeutic": "کاتالوگ تجهیزات درمانی",
+        "catalog_page.title_mobility": "کاتالوگ وسایل حرکتی و ویلچرها",
+        "catalog_page.title_surgical": "کاتالوگ پانسمان‌های جراحی و فشاری",
+        "catalog_page.title_orthotic": "کاتالوگ ارتوپدی و پروتز",
+        "catalog_page.title_specialized": "کاتالوگ تجهیزات تخصصی",
+
+        // Category Headers on Catalog Pages
+        "category.diabetic": "لوازم دیابت (Diabetic Supplies)",
+        "category.hospital_beds": "تخت‌های بیمارستان و لوازم جانبی (Hospital Beds & Accessories)",
+        "category.commodes": "صندلی توالت و ایمنی حمام (Commodes & Bathroom Safety)",
+        "category.nebulizers": "نبولایزرها و تجهیزات تنفسی (Nebulizers & Respiratory)",
+        "category.tens": "دستگاه‌های TENS و مدیریت درد (TENS Units & Pain Management)",
+        "category.patient_aids": "کمک‌های بیمار (Patient Aids)",
+        "category.neurostim": "تحریک‌کننده‌های عصبی (Neurostimulators)",
+        "category.trach": "لوازم تراکئوستومی (Tracheostomy Supplies)",
+        "category.urology": "لوازم اورولوژی (Urological Supplies)",
+        "category.enteral": "تغذیه روده‌ای (Enteral Nutrition)",
+        "category.therapeutic_general": "تجهیزات درمانی (Therapeutic Equipment)",
+        "category.canes": "عصاها (Canes)",
+        "category.crutches": "واکرها (Crutches)",
+        "category.walkers": "راه‌روها و رولاتورها (Walkers & Rollators)",
+        "category.manual_wheelchairs": "ویلچرهای دستی (Manual Wheelchairs)",
+        "category.power_wheelchairs": "ویلچرهای برقی (Power Wheelchairs)",
+        "category.scooters": "اسکوترهای حرکتی (Mobility Scooters)",
+        "category.wheelchair_accessories": "لوازم جانبی ویلچر (Wheelchair Accessories)",
+        "category.surgical_dressings": "پانسمان‌های جراحی (Surgical Dressings)",
+        "category.compression": "درمان فشاری (Compression Therapy)",
+        "category.lymphedema": "مدیریت لنف‌ادم (Lymphedema Management)",
+        "category.orthotics": "دستگاه‌های ارتوپدی (Orthotic Devices)",
+        "category.prosthetics": "اجزای پروتز (Prosthetic Components)",
+        "category.braces": "بریس‌ها و نگهدارنده‌ها (Braces & Supports)",
+        "category.specialized_general": "تجهیزات تخصصی (Specialized Equipment)",
+
+        // Language Selector
+        "lang.select": "زبان",
+        "lang.en": "English",
+        "lang.ru": "Русский",
+        "lang.uz": "O'zbek",
+        "lang.fa": "فارسی",
+        "lang.tg": "Тоҷикӣ"
     },
 
     tg: {
