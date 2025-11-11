@@ -9,7 +9,7 @@ const translations = {
     en: {
         // Header
         "header.company": "Holistic Medical Supply",
-        "header.tagline": "Complete DMEPOS Solutions • BOC Accredited",
+        "header.tagline": "Your Trusted DMEPOS Provider • Medicare & Medicaid Certified",
 
         // Navigation
         "nav.home": "Home",
@@ -196,7 +196,7 @@ const translations = {
     ru: {
         // Header
         "header.company": "Holistic Medical Supply",
-        "header.tagline": "Полные решения DMEPOS • Аккредитация BOC",
+        "header.tagline": "Ваш надежный поставщик DMEPOS • Сертифицирован Medicare и Medicaid",
 
         // Navigation
         "nav.home": "Главная",
@@ -383,7 +383,7 @@ const translations = {
     uz: {
         // Header
         "header.company": "Holistic Medical Supply",
-        "header.tagline": "To'liq DMEPOS yechimlari • BOC akkreditatsiyasi",
+        "header.tagline": "Sizning ishonchli DMEPOS yetkazib beruvchingiz • Medicare va Medicaid sertifikatlangan",
 
         // Navigation
         "nav.home": "Bosh sahifa",
@@ -570,7 +570,7 @@ const translations = {
     fa: {
         // Header
         "header.company": "Holistic Medical Supply",
-        "header.tagline": "راه‌حل‌های کامل DMEPOS • دارای مجوز BOC",
+        "header.tagline": "تامین‌کننده قابل اعتماد DMEPOS شما • گواهی Medicare و Medicaid",
 
         // Navigation
         "nav.home": "صفحه اصلی",
@@ -757,7 +757,7 @@ const translations = {
     tg: {
         // Header
         "header.company": "Holistic Medical Supply",
-        "header.tagline": "Ҳалли пурраи DMEPOS • Аккредитатсияи BOC",
+        "header.tagline": "Таъминкунандаи боэътимоди DMEPOS • Сертификатии Medicare ва Medicaid",
 
         // Navigation
         "nav.home": "Саҳифаи асосӣ",
