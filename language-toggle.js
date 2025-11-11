@@ -129,8 +129,9 @@
      */
     function handleTextDirection(langCode) {
         const html = document.documentElement;
+        const isRTL = RTL_LANGUAGES.includes(langCode);
 
-        if (RTL_LANGUAGES.includes(langCode)) {
+        if (isRTL) {
             html.setAttribute('dir', 'rtl');
             html.setAttribute('lang', langCode);
             document.body.classList.add('rtl-mode');
@@ -138,6 +139,112 @@
             html.setAttribute('dir', 'ltr');
             html.setAttribute('lang', langCode);
             document.body.classList.remove('rtl-mode');
+        }
+
+        // Apply comprehensive RTL styling
+        applyRTLStyling(isRTL);
+    }
+
+    /**
+     * Apply comprehensive RTL styling to all page elements
+     * @param {boolean} isRTL - Whether to apply RTL styling
+     */
+    function applyRTLStyling(isRTL) {
+        // Get all elements that need RTL adjustment
+        const navBar = document.querySelector('.nav-bar');
+        const bocBar = document.querySelector('.boc-bar');
+        const footer = document.querySelector('.footer');
+        const productCards = document.querySelectorAll('.product-card');
+        const categoryHeaders = document.querySelectorAll('.category-header');
+        const catalogCards = document.querySelectorAll('.catalog-card');
+        const orderingSteps = document.querySelector('.ordering-steps');
+        const contactGrid = document.querySelector('.contact-grid');
+
+        if (isRTL) {
+            // Navigation bar
+            if (navBar) {
+                navBar.style.direction = 'rtl';
+                navBar.style.textAlign = 'center';
+            }
+
+            // BOC bar
+            if (bocBar) {
+                bocBar.style.direction = 'rtl';
+            }
+
+            // Footer
+            if (footer) {
+                footer.style.direction = 'rtl';
+            }
+
+            // Ordering steps
+            if (orderingSteps) {
+                orderingSteps.style.direction = 'rtl';
+                orderingSteps.style.textAlign = 'right';
+            }
+
+            // Contact grid
+            if (contactGrid) {
+                contactGrid.style.direction = 'rtl';
+                contactGrid.style.textAlign = 'right';
+            }
+
+            // Product cards
+            productCards.forEach(card => {
+                card.style.direction = 'rtl';
+                card.style.textAlign = 'right';
+            });
+
+            // Category headers
+            categoryHeaders.forEach(header => {
+                header.style.direction = 'rtl';
+                header.style.textAlign = 'right';
+            });
+
+            // Catalog cards on landing page
+            catalogCards.forEach(card => {
+                card.style.direction = 'rtl';
+                card.style.textAlign = 'right';
+            });
+        } else {
+            // Reset to LTR
+            if (navBar) {
+                navBar.style.direction = 'ltr';
+                navBar.style.textAlign = 'center';
+            }
+
+            if (bocBar) {
+                bocBar.style.direction = 'ltr';
+            }
+
+            if (footer) {
+                footer.style.direction = 'ltr';
+            }
+
+            if (orderingSteps) {
+                orderingSteps.style.direction = 'ltr';
+                orderingSteps.style.textAlign = 'left';
+            }
+
+            if (contactGrid) {
+                contactGrid.style.direction = 'ltr';
+                contactGrid.style.textAlign = 'left';
+            }
+
+            productCards.forEach(card => {
+                card.style.direction = 'ltr';
+                card.style.textAlign = 'left';
+            });
+
+            categoryHeaders.forEach(header => {
+                header.style.direction = 'ltr';
+                header.style.textAlign = 'left';
+            });
+
+            catalogCards.forEach(card => {
+                card.style.direction = 'ltr';
+                card.style.textAlign = 'left';
+            });
         }
     }
 

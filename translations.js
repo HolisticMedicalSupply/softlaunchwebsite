@@ -163,7 +163,30 @@ const translations = {
         "lang.ru": "Русский",
         "lang.uz": "O'zbek",
         "lang.fa": "فارسی",
-        "lang.tg": "Тоҷикӣ"
+        "lang.tg": "Тоҷикӣ",
+
+        // Catalog Page BOC Bar (additional labels)
+        "boc.valid_through": "Valid Through",
+        "boc.npi": "NPI Number",
+        "boc.categories_label": "BOC Categories",
+
+        // Catalog Page Footer
+        "footer.ordering_title": "⚡ STREAMLINED PHYSICIAN ORDERING PROCESS",
+        "footer.step1": "<strong>STEP 1:</strong> Write prescription with HCPCS code or product name + ICD-10 diagnosis + Duration + Signature",
+        "footer.step2": "<strong>STEP 2:</strong> Fax to 363-999-0019 or email to orders@holisticmedical.supply",
+        "footer.step3": "<strong>STEP 3:</strong> We handle all Medicare/Medicaid authorizations and medical necessity documentation",
+        "footer.step4": "<strong>STEP 4:</strong> We coordinate patient contact, device training/fitting, delivery, and follow-up care",
+        "footer.accreditation": "<strong>ACCREDITATION:</strong> BOC Facility #S72641 (Valid through 5/31/2028) • NPI: 1780490581",
+        "footer.compliance": "<strong>COMPLIANCE:</strong> 36 DMEPOS Categories Approved • Medicare & Medicaid Enrolled",
+        "footer.codes": "<strong>CODES:</strong> All HCPCS codes current 2025-2026 • All ICD-10 codes FY 2026 compliant",
+        "footer.insurance": "<strong>INSURANCE:</strong> Medicare & Medicaid Only • We do not process private insurance claims",
+        "footer.service_area": "<strong>SERVICE AREA:</strong> NYC • Brooklyn • Staten Island • Port Washington • Nassau County",
+        "footer.contact_info": "<strong>CONTACT:</strong> 1170 Port Washington Blvd, Port Washington, NY 11050 • Phone: 516-386-3343",
+        "footer.quick_contact": "<strong>24/7 FAX:</strong> 363-999-0019 • <strong>ORDERS:</strong> orders@holisticmedical.supply • <strong>SUPPORT:</strong> support@holisticmedical.supply",
+        "footer.seal": "🏆 HOLISTIC MEDICAL SUPPLY • SERVING PHYSICIANS & PATIENTS ACROSS NEW YORK • MEDICARE & MEDICAID CERTIFIED",
+
+        // Product Labels
+        "product.hcpcs_code": "HCPCS Code"
     },
 
     // Russian translations
@@ -324,7 +347,30 @@ const translations = {
         "lang.ru": "Русский",
         "lang.uz": "O'zbek",
         "lang.fa": "فارسی",
-        "lang.tg": "Тоҷикӣ"
+        "lang.tg": "Тоҷикӣ",
+
+        // Catalog Page BOC Bar (additional labels)
+        "boc.valid_through": "Действителен до (Valid Through)",
+        "boc.npi": "Номер NPI (NPI Number)",
+        "boc.categories_label": "Категории BOC (BOC Categories)",
+
+        // Catalog Page Footer
+        "footer.ordering_title": "⚡ УПРОЩЕННЫЙ ПРОЦЕСС ЗАКАЗА ДЛЯ ВРАЧЕЙ",
+        "footer.step1": "<strong>ШАГ 1:</strong> Напишите рецепт с кодом HCPCS или названием продукта + диагноз ICD-10 + Продолжительность + Подпись",
+        "footer.step2": "<strong>ШАГ 2:</strong> Отправьте факс на 363-999-0019 или email на orders@holisticmedical.supply",
+        "footer.step3": "<strong>ШАГ 3:</strong> Мы обрабатываем все разрешения Medicare/Medicaid и медицинскую документацию",
+        "footer.step4": "<strong>ШАГ 4:</strong> Мы координируем контакт с пациентом, обучение/подгонку устройства, доставку и последующий уход",
+        "footer.accreditation": "<strong>АККРЕДИТАЦИЯ:</strong> Учреждение BOC #S72641 (Действителен до 5/31/2028) • NPI: 1780490581",
+        "footer.compliance": "<strong>СООТВЕТСТВИЕ:</strong> 36 категорий DMEPOS одобрено • Зарегистрирован в Medicare и Medicaid",
+        "footer.codes": "<strong>КОДЫ:</strong> Все коды HCPCS актуальны 2025-2026 • Все коды ICD-10 соответствуют FY 2026",
+        "footer.insurance": "<strong>СТРАХОВАНИЕ:</strong> Только Medicare и Medicaid • Мы не обрабатываем частные страховые претензии",
+        "footer.service_area": "<strong>ЗОНА ОБСЛУЖИВАНИЯ:</strong> Нью-Йорк • Бруклин • Статен-Айленд • Порт Вашингтон • округ Нассау",
+        "footer.contact_info": "<strong>КОНТАКТ:</strong> 1170 Port Washington Blvd, Port Washington, NY 11050 • Телефон: 516-386-3343",
+        "footer.quick_contact": "<strong>ФАКС 24/7:</strong> 363-999-0019 • <strong>ЗАКАЗЫ:</strong> orders@holisticmedical.supply • <strong>ПОДДЕРЖКА:</strong> support@holisticmedical.supply",
+        "footer.seal": "🏆 HOLISTIC MEDICAL SUPPLY • ОБСЛУЖИВАНИЕ ВРАЧЕЙ И ПАЦИЕНТОВ ПО ВСЕМУ НЬЮ-ЙОРКУ • СЕРТИФИЦИРОВАН MEDICARE И MEDICAID",
+
+        // Product Labels
+        "product.hcpcs_code": "Код HCPCS (HCPCS Code)"
     },
 
     // Uzbek translations
@@ -485,7 +531,30 @@ const translations = {
         "lang.ru": "Русский",
         "lang.uz": "O'zbek",
         "lang.fa": "فارسی",
-        "lang.tg": "Тоҷикӣ"
+        "lang.tg": "Тоҷикӣ",
+
+        // Catalog Page BOC Bar (additional labels)
+        "boc.valid_through": "Amal qilish muddati (Valid Through)",
+        "boc.npi": "NPI raqami (NPI Number)",
+        "boc.categories_label": "BOC toifalari (BOC Categories)",
+
+        // Catalog Page Footer
+        "footer.ordering_title": "⚡ SHIFOKORLAR UCHUN SODDALASHTIRILGAN BUYURTMA BERISH JARAYONI",
+        "footer.step1": "<strong>QADAM 1:</strong> HCPCS kodi yoki mahsulot nomi + ICD-10 tashxis + Davomiyligi + Imzo bilan retsept yozing",
+        "footer.step2": "<strong>QADAM 2:</strong> 363-999-0019 raqamiga faks yuboring yoki orders@holisticmedical.supply manzilga email yuboring",
+        "footer.step3": "<strong>QADAM 3:</strong> Biz barcha Medicare/Medicaid ruxsatnomalari va tibbiy zaruriyat hujjatlarini boshqaramiz",
+        "footer.step4": "<strong>QADAM 4:</strong> Biz bemor bilan aloqa, qurilmani o'rgatish/moslashtirish, yetkazib berish va keyingi g'amxo'rlikni muvofiqlashtramiz",
+        "footer.accreditation": "<strong>AKKREDITATSIYA:</strong> BOC muassasasi #S72641 (5/31/2028 gacha amal qiladi) • NPI: 1780490581",
+        "footer.compliance": "<strong>MOS KELISH:</strong> 36 ta DMEPOS toifalari tasdiqlangan • Medicare va Medicaid ro'yxatdan o'tgan",
+        "footer.codes": "<strong>KODLAR:</strong> Barcha HCPCS kodlari 2025-2026 yillar uchun joriy • Barcha ICD-10 kodlari FY 2026 ga mos",
+        "footer.insurance": "<strong>SUG'URTA:</strong> Faqat Medicare va Medicaid • Biz shaxsiy sug'urta da'volarini qayta ishlamaymiz",
+        "footer.service_area": "<strong>XIZMAT HUDUDI:</strong> NYC • Brooklyn • Staten Island • Port Washington • Nassau County",
+        "footer.contact_info": "<strong>ALOQA:</strong> 1170 Port Washington Blvd, Port Washington, NY 11050 • Telefon: 516-386-3343",
+        "footer.quick_contact": "<strong>24/7 FAKS:</strong> 363-999-0019 • <strong>BUYURTMALAR:</strong> orders@holisticmedical.supply • <strong>YORDAM:</strong> support@holisticmedical.supply",
+        "footer.seal": "🏆 HOLISTIC MEDICAL SUPPLY • NEW YORK BO'YLAB SHIFOKORLAR VA BEMORLARGA XIZMAT KO'RSATISH • MEDICARE VA MEDICAID SERTIFIKATLANGAN",
+
+        // Product Labels
+        "product.hcpcs_code": "HCPCS kodi (HCPCS Code)"
     },
 
     // Farsi translations (RTL language)
@@ -646,7 +715,30 @@ const translations = {
         "lang.ru": "Русский",
         "lang.uz": "O'zbek",
         "lang.fa": "فارسی",
-        "lang.tg": "Тоҷикӣ"
+        "lang.tg": "Тоҷикӣ",
+
+        // Catalog Page BOC Bar (additional labels)
+        "boc.valid_through": "معتبر تا (Valid Through)",
+        "boc.npi": "شماره NPI (NPI Number)",
+        "boc.categories_label": "دسته‌بندی‌های BOC (BOC Categories)",
+
+        // Catalog Page Footer
+        "footer.ordering_title": "⚡ فرآیند ساده سفارش برای پزشکان",
+        "footer.step1": "<strong>مرحله ۱:</strong> نسخه را با کد HCPCS یا نام محصول + تشخیص ICD-10 + مدت زمان + امضا بنویسید",
+        "footer.step2": "<strong>مرحله ۲:</strong> به شماره 363-999-0019 فکس کنید یا به orders@holisticmedical.supply ایمیل بزنید",
+        "footer.step3": "<strong>مرحله ۳:</strong> ما تمام مجوزهای Medicare/Medicaid و مستندات ضرورت پزشکی را مدیریت می‌کنیم",
+        "footer.step4": "<strong>مرحله ۴:</strong> ما تماس با بیمار، آموزش/تنظیم دستگاه، تحویل و مراقبت‌های بعدی را هماهنگ می‌کنیم",
+        "footer.accreditation": "<strong>اعتبارسنجی:</strong> مرکز BOC #S72641 (معتبر تا 5/31/2028) • NPI: 1780490581",
+        "footer.compliance": "<strong>انطباق:</strong> 36 دسته DMEPOS تایید شده • ثبت‌نام در Medicare و Medicaid",
+        "footer.codes": "<strong>کدها:</strong> تمام کدهای HCPCS جاری 2025-2026 • تمام کدهای ICD-10 مطابق FY 2026",
+        "footer.insurance": "<strong>بیمه:</strong> فقط Medicare و Medicaid • ما ادعاهای بیمه خصوصی را پردازش نمی‌کنیم",
+        "footer.service_area": "<strong>منطقه خدمات:</strong> NYC • Brooklyn • Staten Island • Port Washington • Nassau County",
+        "footer.contact_info": "<strong>تماس:</strong> 1170 Port Washington Blvd, Port Washington, NY 11050 • تلفن: 516-386-3343",
+        "footer.quick_contact": "<strong>فکس 24/7:</strong> 363-999-0019 • <strong>سفارشات:</strong> orders@holisticmedical.supply • <strong>پشتیبانی:</strong> support@holisticmedical.supply",
+        "footer.seal": "🏆 HOLISTIC MEDICAL SUPPLY • خدمت به پزشکان و بیماران در سراسر نیویورک • گواهی Medicare و Medicaid",
+
+        // Product Labels
+        "product.hcpcs_code": "کد HCPCS (HCPCS Code)"
     },
 
     // Tajik translations
@@ -807,7 +899,30 @@ const translations = {
         "lang.ru": "Русский",
         "lang.uz": "O'zbek",
         "lang.fa": "فارسی",
-        "lang.tg": "Тоҷикӣ"
+        "lang.tg": "Тоҷикӣ",
+
+        // Catalog Page BOC Bar (additional labels)
+        "boc.valid_through": "Эътибор то (Valid Through)",
+        "boc.npi": "Рақами NPI (NPI Number)",
+        "boc.categories_label": "Категорияҳои BOC (BOC Categories)",
+
+        // Catalog Page Footer
+        "footer.ordering_title": "⚡ РАВАНДИ ОСОНГАРДОНИДАШУДАИ ФАРМОИШ БАРОИ ТАБИБОН",
+        "footer.step1": "<strong>ҚАДАМИ 1:</strong> Нусхаро бо коди HCPCS ё номи маҳсулот + ташхиси ICD-10 + Давомнокӣ + Имзо нависед",
+        "footer.step2": "<strong>ҚАДАМИ 2:</strong> Ба рақами 363-999-0019 факс фиристед ё ба orders@holisticmedical.supply email фиристед",
+        "footer.step3": "<strong>ҚАДАМИ 3:</strong> Мо ҳамаи иҷозатномаҳои Medicare/Medicaid ва ҳуҷҷатҳои зарурияти тиббиро идора мекунем",
+        "footer.step4": "<strong>ҚАДАМИ 4:</strong> Мо тамоси бемор, омӯзиши/танзими дастгоҳ, расонидан ва ғамхориҳои баъдиро ҳамоҳанг мекунем",
+        "footer.accreditation": "<strong>АККРЕДИТАТСИЯ:</strong> Муассисаи BOC #S72641 (Эътибор то 5/31/2028) • NPI: 1780490581",
+        "footer.compliance": "<strong>МУТОБИҚАТ:</strong> 36 категорияи DMEPOS тасдиқшуда • Дар Medicare ва Medicaid қайдшуда",
+        "footer.codes": "<strong>КОДҲО:</strong> Ҳамаи кодҳои HCPCS ҷории 2025-2026 • Ҳамаи кодҳои ICD-10 мутобиқи FY 2026",
+        "footer.insurance": "<strong>СУҒУРТА:</strong> Танҳо Medicare ва Medicaid • Мо даъвоҳои суғуртаи хусусиро коркард намекунем",
+        "footer.service_area": "<strong>МИНТАҚАИ ХИДМАТ:</strong> NYC • Brooklyn • Staten Island • Port Washington • Nassau County",
+        "footer.contact_info": "<strong>ТАМОС:</strong> 1170 Port Washington Blvd, Port Washington, NY 11050 • Телефон: 516-386-3343",
+        "footer.quick_contact": "<strong>ФАКС 24/7:</strong> 363-999-0019 • <strong>ФАРМОИШҲО:</strong> orders@holisticmedical.supply • <strong>ДАСТГИРӢ:</strong> support@holisticmedical.supply",
+        "footer.seal": "🏆 HOLISTIC MEDICAL SUPPLY • ХИДМАТРАСОНӢ БА ТАБИБОН ВА БЕМОРОН ДАР ТАМОМИ НЮ-ЙОРК • СЕРТИФИКАТИИ MEDICARE ВА MEDICAID",
+
+        // Product Labels
+        "product.hcpcs_code": "Коди HCPCS (HCPCS Code)"
     }
 };
 
