@@ -33,6 +33,9 @@ const translations = {
 
         // Intro Section
         "intro.title": "Professional Product Catalog for Physicians",
+        "intro.subtitle": "Complete HCPCS Code Reference",
+        "intro.description": "Our comprehensive catalog is organized by equipment category for easy reference. Each section includes product names and HCPCS codes for quick reference.",
+        "intro.select_category": "Select a category below to view the complete product catalog:",
         "intro.p1": "Welcome to Holistic Medical Supply's comprehensive DMEPOS catalog. We are a BOC-accredited supplier serving healthcare providers across the New York metropolitan area.",
         "intro.p2": "Our extensive inventory covers 36 BOC-approved categories with over 535 HCPCS product codes, ensuring you can find the right equipment for your patients' needs.",
         "intro.p3": "Browse our complete catalog below, organized by equipment category. Each product includes its HCPCS code for easy ordering and billing reference.",
@@ -217,6 +220,9 @@ const translations = {
 
         // Intro Section
         "intro.title": "Профессиональный каталог продукции для врачей",
+        "intro.subtitle": "Полный справочник кодов HCPCS",
+        "intro.description": "Наш комплексный каталог организован по категориям оборудования для удобства. Каждый раздел включает названия продуктов и коды HCPCS для быстрого ознакомления.",
+        "intro.select_category": "Выберите категорию ниже, чтобы просмотреть полный каталог продукции:",
         "intro.p1": "Добро пожаловать в комплексный каталог DMEPOS компании Holistic Medical Supply. Мы являемся аккредитованным BOC поставщиком, обслуживающим медицинских работников в столичном регионе Нью-Йорка.",
         "intro.p2": "Наш обширный ассортимент охватывает 36 категорий, утвержденных BOC, с более чем 535 кодами продуктов HCPCS, что гарантирует, что вы найдете подходящее оборудование для нужд ваших пациентов.",
         "intro.p3": "Просмотрите наш полный каталог ниже, организованный по категориям оборудования. Каждый продукт включает свой код HCPCS для удобства заказа и выставления счетов.",
@@ -401,6 +407,9 @@ const translations = {
 
         // Intro Section
         "intro.title": "Shifokorlar uchun professional mahsulot katalogi",
+        "intro.subtitle": "To'liq HCPCS kodlar ma'lumotnomasi",
+        "intro.description": "Bizning keng qamrovli katalog qulay foydalanish uchun uskunalar toifasi bo'yicha tashkil etilgan. Har bir bo'limda tez tanishish uchun mahsulot nomlari va HCPCS kodlari mavjud.",
+        "intro.select_category": "To'liq mahsulot katalogini ko'rish uchun quyida toifani tanlang:",
         "intro.p1": "Holistic Medical Supply kompaniyasining keng qamrovli DMEPOS katalogiga xush kelibsiz. Biz Nyu-York poytaxti hududidagi tibbiyot xodimlariga xizmat ko'rsatuvchi BOC akkreditatsiyalangan yetkazib beruvchimiz.",
         "intro.p2": "Bizning keng assortimentimiz BOC tomonidan tasdiqlangan 36 toifani va 535 dan ortiq HCPCS mahsulot kodlarini qamrab oladi, bu sizga bemorlaringiz ehtiyojlari uchun kerakli uskunani topishni ta'minlaydi.",
         "intro.p3": "Quyida uskunalar toifasi bo'yicha tashkil etilgan to'liq katalogimizni ko'rib chiqing. Har bir mahsulot buyurtma berish va hisob-kitob uchun o'zining HCPCS kodini o'z ichiga oladi.",
@@ -585,6 +594,9 @@ const translations = {
 
         // Intro Section
         "intro.title": "کاتالوگ حرفه‌ای محصولات برای پزشکان",
+        "intro.subtitle": "مرجع کامل کدهای HCPCS",
+        "intro.description": "کاتالوگ جامع ما بر اساس دسته‌بندی تجهیزات برای مرجع آسان سازماندهی شده است. هر بخش شامل نام محصولات و کدهای HCPCS برای مرجع سریع است.",
+        "intro.select_category": "برای مشاهده کاتالوگ کامل محصول، یک دسته را در زیر انتخاب کنید:",
         "intro.p1": "به کاتالوگ جامع DMEPOS شرکت Holistic Medical Supply خوش آمدید. ما یک تامین‌کننده دارای مجوز BOC هستیم که به ارائه‌دهندگان مراقبت‌های بهداشتی در منطقه متروپولیتن نیویورک خدمات می‌دهیم.",
         "intro.p2": "موجودی گسترده ما 36 دسته تایید شده BOC را با بیش از 535 کد محصول HCPCS پوشش می‌دهد و تضمین می‌کند که می‌توانید تجهیزات مناسب برای نیازهای بیماران خود را پیدا کنید.",
         "intro.p3": "کاتالوگ کامل ما را در زیر مرور کنید که بر اساس دسته‌بندی تجهیزات سازماندهی شده است. هر محصول شامل کد HCPCS خود برای سفارش آسان و مرجع صورت‌حساب است.",
@@ -769,6 +781,9 @@ const translations = {
 
         // Intro Section
         "intro.title": "Каталоги касбии маҳсулот барои табибон",
+        "intro.subtitle": "Маълумотномаи пурраи кодҳои HCPCS",
+        "intro.description": "Каталоги комплексии мо бо категорияи таҷҳизот барои истиноди осон ташкил шудааст. Ҳар бахш номҳои маҳсулот ва кодҳои HCPCS-ро барои истиноди зуд дар бар мегирад.",
+        "intro.select_category": "Барои тамошои каталоги пурраи маҳсулот категорияро дар зер интихоб кунед.",
         "intro.p1": "Ба каталоги пурраи DMEPOS-и ширкати Holistic Medical Supply хуш омадед. Мо таъминкунандаи дорои аккредитатсияи BOC ҳастем, ки ба пешбарандагони хизматрасонии тиббӣ дар минтақаи Ню-Йорк хидмат мерасонем.",
         "intro.p2": "Захираи васеи мо 36 категорияи тасдиқшудаи BOC-ро бо зиёда аз 535 коди маҳсулоти HCPCS фаро мегирад ва кафолат медиҳад, ки шумо метавонед таҷҳизоти мувофиқро барои ниёзҳои беморонатон пайдо кунед.",
         "intro.p3": "Каталоги пурраи моро дар поён тамошо кунед, ки аз рӯи категорияи таҷҳизот ташкил шудааст. Ҳар маҳсулот коди HCPCS-и худро барои фармоиш ва маълумоти ҳисоб дорад.",
