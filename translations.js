@@ -792,7 +792,8 @@ const translations = {
         "cat.pd04": "PD04: NEYROSTIMULYATORLAR VA/YOKI MATERIALLAR (BOC toifasi)",
         "cat.pd08": "PD08: TRAXEOSTOMIYA BUYUMLARI (BOC toifasi)",
         "cat.pd09": "PD09: UROLOGIK BUYUMLAR (BOC toifasi)",
-        "cat.pe03": "PE03: ENTERAL OVQATLANTIRISHcat.pe04": "PE04: ENTERAL USKUNALAR VA/YOKI MATERIALLAR (BOC toifasi)",
+        "cat.pe03": "PE03: ENTERAL OVQATLANISH (BOC toifasi)",
+        "cat.pe04": "PE04: ENTERAL USKUNALAR VA/YOKI MATERIALLAR (BOC toifasi)",
         "cat.r07": "R07: NEBULAYZER USKUNALAR VA/YOKI MATERIALLAR (BOC toifasi)",
 
         // System Messages
